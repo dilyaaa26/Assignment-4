@@ -1,0 +1,3 @@
+{"command": "lcs", "data": {"s1": "ABCDE", "s2": "ACE"}, "expected": {"length": 3, "lcs": "ACE"}}
+{"command": "naive", "data": {"text": "hello world", "pattern": "lo"}, "expected": {"occurrences": [3]}}
+{"command": "kmp", "data": {"text": "ababcabab", "pattern": "ab"}, "expected": {"occurrences": [0, 2, 5, 7]}}
